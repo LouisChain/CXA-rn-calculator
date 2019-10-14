@@ -1,0 +1,20 @@
+const OPERATOR = {
+  ADD: '+',
+  SUBSTRACT: '-',
+  MULTIPLY: 'x',
+  DEVIDE: '/',
+  EQUAL: '=',
+  CLEAR: 'C',
+}
+
+const KEYPADs = [
+  7, 8, 9, OPERATOR.ADD,
+  4, 5, 6, OPERATOR.SUBSTRACT,
+  1, 2, 3, OPERATOR.MULTIPLY,
+  0, OPERATOR.CLEAR, OPERATOR.EQUAL, OPERATOR.DEVIDE
+];
+
+export {
+  OPERATOR,
+  KEYPADs
+}
